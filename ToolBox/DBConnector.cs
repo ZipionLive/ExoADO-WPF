@@ -34,7 +34,7 @@ namespace ToolBox
             //sqlpPassword.Value = pwd;
 
             StringBuilder csBuild = new StringBuilder();
-            csBuild.Append(@"Data Source=DOTNET703; Initial Catalog=AdventureWorks2008R2; User Id=");
+            csBuild.Append(@"Data Source=ASPIRE-5560G\ZLSQL; Initial Catalog=AdventureWorks2008R2; User Id=");
             csBuild.Append(this.login);
             csBuild.Append("; Password=");
             csBuild.Append(this.pwd);
